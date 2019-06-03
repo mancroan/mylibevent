@@ -1,0 +1,26 @@
+﻿生成启动时间为 2019/5/24 13:23:16。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP_client\libevent_IOCP_client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\libevent_IOCP_client.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP\libevent" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bufferevent_cli.cpp
+         bufferevent_cli.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\libevent\libevent_iocp_client\bufferevent_cli.cpp(113): warning C4700: 使用了未初始化的局部变量“status”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\Debug\libevent_IOCP_client.exe" /NOLOGO /LIBPATH:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP" libevent.lib libevent_extras.lib libevent_core.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libevent_IOCP_client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\Debug\libevent_IOCP_client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\Debug\libevent_IOCP_client.lib" /MACHINE:X86 Debug\bufferevent_cli.obj
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _event_base_dispatch，该符号在函数 _main 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_enable，该符号在函数 _main 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_setcb，该符号在函数 _main 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_socket_new，该符号在函数 _main 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _event_base_new，该符号在函数 _main 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_write，该符号在函数 "void __cdecl cmd_msg_cb(int,short,void *)" (?cmd_msg_cb@@YAXHFPAX@Z) 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_read，该符号在函数 "void __cdecl server_msg_cb(struct bufferevent *,void *)" (?server_msg_cb@@YAXPAUbufferevent@@PAX@Z) 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _event_free，该符号在函数 "void __cdecl event_cb(struct bufferevent *,short,void *)" (?event_cb@@YAXPAUbufferevent@@FPAX@Z) 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _bufferevent_free，该符号在函数 "void __cdecl event_cb(struct bufferevent *,short,void *)" (?event_cb@@YAXPAUbufferevent@@FPAX@Z) 中被引用
+     1>bufferevent_cli.obj : error LNK2019: 无法解析的外部符号 _evutil_make_socket_nonblocking，该符号在函数 "int __cdecl tcp_connect_server(char const *,int)" (?tcp_connect_server@@YAHPBDH@Z) 中被引用
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\Debug\libevent_IOCP_client.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP_client\libevent_IOCP_client.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.24

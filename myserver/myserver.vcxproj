@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07878F26-63B0-4BDB-9495-0C99D58FAE7F}</ProjectGuid>
+    <RootNamespace>myserver</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="bin\build.sh" />
+    <None Include="bin\cspipefile" />
+    <None Include="bin\dbpipefile" />
+    <None Include="bin\kstop.sh" />
+    <None Include="bin\monitoring.sh" />
+    <None Include="bin\nohup.out" />
+    <None Include="bin\reload.sh" />
+    <None Include="bin\scpipefile" />
+    <None Include="bin\shutdown.sh" />
+    <None Include="bin\start.sh" />
+    <None Include="bin\stop.sh" />
+    <None Include="bin\tmpfile" />
+    <None Include="config\serverinfo.json" />
+    <None Include="data\achievement_config.json" />
+    <None Include="data\activity_config.json" />
+    <None Include="data\alliance_building_amount_config.json" />
+    <None Include="data\alliance_building_config.json" />
+    <None Include="data\alliance_donate_config.json" />
+    <None Include="data\alliance_flag_config.json" />
+    <None Include="data\alliance_gift_config.json" />
+    <None Include="data\alliance_reward_config.json" />
+    <None Include="data\alliance_tech_config.json" />
+    <None Include="data\area_level_config.json" />
+    <None Include="data\area_level_monster_config.json" />
+    <None Include="data\army_config.json" />
+    <None Include="data\army_type_config.json" />
+    <None Include="data\building_amount_config.json" />
+    <None Include="data\building_config.json" />
+    <None Include="data\chat_extend_config.json" />
+    <None Include="data\chest_config.json" />
+    <None Include="data\child_activity_config.json" />
+    <None Include="data\composite_config.json" />
+    <None Include="data\daily_config.json" />
+    <None Include="data\dragon_config.json" />
+    <None Include="data\drop_config.json" />
+    <None Include="data\equipment_config.json" />
+    <None Include="data\gift_config.json" />
+    <None Include="data\grid_config.json" />
+    <None Include="data\grid_limit_config.json" />
+    <None Include="data\item_config.json" />
+    <None Include="data\land_config.json" />
+    <None Include="data\map_config.json" />
+    <None Include="data\map_field_config.json" />
+    <None Include="data\map_obstacle_config.json" />
+    <None Include="data\market_config.json" />
+    <None Include="data\mission_config.json" />
+    <None Include="data\monster_config.json" />
+    <None Include="data\month_card_config.json" />
+    <None Include="data\more_2_config.json" />
+    <None Include="data\more_3_config.json" />
+    <None Include="data\more_4_config.json" />
+    <None Include="data\online_reward_config.json" />
+    <None Include="data\only_config.json" />
+    <None Include="data\parameter_config.json" />
+    <None Include="data\player_exp_config.json" />
+    <None Include="data\player_skill_config.json" />
+    <None Include="data\player_talent_config.json" />
+    <None Include="data\property_config.json" />
+    <None Include="data\push_message_config.json" />
+    <None Include="data\random_name_config.json" />
+    <None Include="data\recharge_config.json" />
+    <None Include="data\robot_config.json" />
+    <None Include="data\roundle_config.json" />
+    <None Include="data\seven_day_config.json" />
+    <None Include="data\shop_config.json" />
+    <None Include="data\shop_guild_config.json" />
+    <None Include="data\shop_quick_config.json" />
+    <None Include="data\sixday_config.json" />
+    <None Include="data\skill_config.json" />
+    <None Include="data\smithy_config.json" />
+    <None Include="data\soldier_config.json" />
+    <None Include="data\system_mail_config.json" />
+    <None Include="data\task_config.json" />
+    <None Include="data\vip_config.json" />
+    <None Include="doc\ddl.sql" />
+    <None Include="doc\gameserver框架.png" />
+    <None Include="doc\install.txt" />
+    <None Include="framework\message\cmake.bat" />
+    <None Include="framework\message\make.bat" />
+    <None Include="framework\message\make.sh" />
+    <None Include="framework\message\make_one.sh" />
+    <None Include="framework\message\protoc" />
+    <None Include="framework\message\proto\common.proto" />
+    <None Include="framework\message\proto\dbmessage.proto" />
+    <None Include="framework\message\proto\message.proto" />
+    <None Include="framework\message\proto\player.proto" />
+    <None Include="framework\message\proto\README" />
+    <None Include="framework\message\proto\READ_ME.txt" />
+    <None Include="gateserver\CMakeLists.txt" />
+    <None Include="proxyserver\CMakeLists.txt" />
+    <None Include="test\CMakeLists.txt" />
+    <None Include="test\testso\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dbserver\main.cpp" />
+    <ClCompile Include="dbserver\src\database.cpp" />
+    <ClCompile Include="dbserver\src\database_mysql.cpp" />
+    <ClCompile Include="dbserver\src\dbctrl.cpp" />
+    <ClCompile Include="dbserver\src\field.cpp" />
+    <ClCompile Include="dbserver\src\message_factory.cpp" />
+    <ClCompile Include="dbserver\src\query_result_mysql.cpp" />
+    <ClCompile Include="framework\base\base.cpp" />
+    <ClCompile Include="framework\base\object_manager.cpp" />
+    <ClCompile Include="framework\base\performance.cpp" />
+    <ClCompile Include="framework\base\server_tool.cpp" />
+    <ClCompile Include="framework\json\config.cpp" />
+    <ClCompile Include="framework\json\json_interface.cpp" />
+    <ClCompile Include="framework\log\log.cpp" />
+    <ClCompile Include="framework\mem\code_queue.cpp" />
+    <ClCompile Include="framework\mem\share_mem.cpp" />
+    <ClCompile Include="framework\mem\shm.cpp" />
+    <ClCompile Include="framework\message\common.pb.cc" />
+    <ClCompile Include="framework\message\dbmessage.pb.cc" />
+    <ClCompile Include="framework\message\message.pb.cc" />
+    <ClCompile Include="framework\message\player.pb.cc" />
+    <ClCompile Include="framework\net\acceptor.cpp" />
+    <ClCompile Include="framework\net\buffev_interface.cpp" />
+    <ClCompile Include="framework\net\byte_buff.cpp" />
+    <ClCompile Include="framework\net\ccrypto.cpp" />
+    <ClCompile Include="framework\net\client_comm_engine.cpp" />
+    <ClCompile Include="framework\net\connector.cpp" />
+    <ClCompile Include="framework\net\event_reactor.cpp" />
+    <ClCompile Include="framework\net\file_listener.cpp" />
+    <ClCompile Include="framework\net\listener.cpp" />
+    <ClCompile Include="framework\net\message_interface.cpp" />
+    <ClCompile Include="framework\net\net_work.cpp" />
+    <ClCompile Include="framework\net\runflag.cpp" />
+    <ClCompile Include="framework\net\server_comm_engine.cpp" />
+    <ClCompile Include="framework\net\socket.cpp" />
+    <ClCompile Include="framework\net\statistics.cpp" />
+    <ClCompile Include="framework\net\system_signal.cpp" />
+    <ClCompile Include="framework\net\timer_event.cpp" />
+    <ClCompile Include="framework\thread\mythread.cpp" />
+    <ClCompile Include="framework\thread\thread_pool.cpp" />
+    <ClCompile Include="framework\timer\clock.cpp" />
+    <ClCompile Include="framework\timer\timer.cpp" />
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\player.cpp" />
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playerbase.cpp" />
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playercity.cpp" />
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playerdata.cpp" />
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\sceneobjmanager.cpp" />
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\core_module.cpp" />
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\db_module.cpp" />
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\logic_module.cpp" />
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\module_manager.cpp" />
+    <ClCompile Include="gameserver\gamemodule\metamodule\src\parameter_config.cpp" />
+    <ClCompile Include="gameserver\main.cpp" />
+    <ClCompile Include="gateserver\main.cpp" />
+    <ClCompile Include="gateserver\src\gate_ctrl.cpp" />
+    <ClCompile Include="gateserver\src\mes_handle.cpp" />
+    <ClCompile Include="gateserver\src\net_manager.cpp" />
+    <ClCompile Include="proxyserver\main.cpp" />
+    <ClCompile Include="proxyserver\src\proxy_ctrl.cpp" />
+    <ClCompile Include="test\main.cpp" />
+    <ClCompile Include="test\testso\singleton.cpp" />
+    <ClCompile Include="test\testso\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dbserver\inc\basedb.h" />
+    <ClInclude Include="dbserver\inc\database.h" />
+    <ClInclude Include="dbserver\inc\database_mysql.h" />
+    <ClInclude Include="dbserver\inc\dbctrl.h" />
+    <ClInclude Include="dbserver\inc\field.h" />
+    <ClInclude Include="dbserver\inc\message_factory.h" />
+    <ClInclude Include="dbserver\inc\query_result.h" />
+    <ClInclude Include="dbserver\inc\query_result_mysql.h" />
+    <ClInclude Include="framework\base\base.h" />
+    <ClInclude Include="framework\base\my_assert.h" />
+    <ClInclude Include="framework\base\my_macro.h" />
+    <ClInclude Include="framework\base\object.h" />
+    <ClInclude Include="framework\base\object_manager.h" />
+    <ClInclude Include="framework\base\performance.h" />
+    <ClInclude Include="framework\base\server_tool.h" />
+    <ClInclude Include="framework\const\common_def.h" />
+    <ClInclude Include="framework\const\dblogin_type.h" />
+    <ClInclude Include="framework\const\err_code.h" />
+    <ClInclude Include="framework\json\config.h" />
+    <ClInclude Include="framework\json\json_interface.h" />
+    <ClInclude Include="framework\log\log.h" />
+    <ClInclude Include="framework\mem\array_list.h" />
+    <ClInclude Include="framework\mem\code_queue.h" />
+    <ClInclude Include="framework\mem\map.h" />
+    <ClInclude Include="framework\mem\mempool_safty.h" />
+    <ClInclude Include="framework\mem\mem_pool.h" />
+    <ClInclude Include="framework\mem\share_container_interface.h" />
+    <ClInclude Include="framework\mem\share_mem.h" />
+    <ClInclude Include="framework\mem\shm.h" />
+    <ClInclude Include="framework\mem\unordered_map.h" />
+    <ClInclude Include="framework\mem\vector.h" />
+    <ClInclude Include="framework\message\common.pb.h" />
+    <ClInclude Include="framework\message\dbmessage.pb.h" />
+    <ClInclude Include="framework\message\message.pb.h" />
+    <ClInclude Include="framework\message\player.pb.h" />
+    <ClInclude Include="framework\net\acceptor.h" />
+    <ClInclude Include="framework\net\buffev_interface.h" />
+    <ClInclude Include="framework\net\byte_buff.h" />
+    <ClInclude Include="framework\net\ccrypto.h" />
+    <ClInclude Include="framework\net\client_comm_engine.h" />
+    <ClInclude Include="framework\net\connector.h" />
+    <ClInclude Include="framework\net\event_reactor.h" />
+    <ClInclude Include="framework\net\file_listener.h" />
+    <ClInclude Include="framework\net\listener.h" />
+    <ClInclude Include="framework\net\message_interface.h" />
+    <ClInclude Include="framework\net\network_interface.h" />
+    <ClInclude Include="framework\net\net_addr.h" />
+    <ClInclude Include="framework\net\net_inc.h" />
+    <ClInclude Include="framework\net\net_work.h" />
+    <ClInclude Include="framework\net\runflag.h" />
+    <ClInclude Include="framework\net\server_comm_engine.h" />
+    <ClInclude Include="framework\net\socket.h" />
+    <ClInclude Include="framework\net\statistics.h" />
+    <ClInclude Include="framework\net\system_signal.h" />
+    <ClInclude Include="framework\net\timer_event.h" />
+    <ClInclude Include="framework\thread\mythread.h" />
+    <ClInclude Include="framework\thread\thread_pool.h" />
+    <ClInclude Include="framework\timer\clock.h" />
+    <ClInclude Include="framework\timer\timer.h" />
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\player.h" />
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playerbase.h" />
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playercity.h" />
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playerdata.h" />
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\sceneobjmanager.h" />
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\core_module.h" />
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\db_module.h" />
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\logic_module.h" />
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\module_manager.h" />
+    <ClInclude Include="gameserver\gamemodule\metamodule\inc\parameter_config.h" />
+    <ClInclude Include="gateserver\inc\gate_ctrl.h" />
+    <ClInclude Include="gateserver\inc\gate_def.h" />
+    <ClInclude Include="gateserver\inc\mes_handle.h" />
+    <ClInclude Include="gateserver\inc\net_manager.h" />
+    <ClInclude Include="proxyserver\inc\proxy_ctrl.h" />
+    <ClInclude Include="test\redi_lock.h" />
+    <ClInclude Include="test\test.h" />
+    <ClInclude Include="test\testso\singleton.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿生成启动时间为 2018/12/5 18:23:39。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\libevent_test.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“libevent_test.dir\Debug\libevent_test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt
+         CMake does not need to re-run because D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\." /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libevent_test.dir\Debug\\" /Fd"libevent_test.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\libevent_test.cpp ..\HttpContainer.cpp ..\HttpRequest.cpp ..\HttpServer.cpp ..\HttpServerMsgHandler.cpp ..\MessageHandler.cpp ..\TcpClientThread.cpp ..\TcpServer.cpp ..\TcpServerMsgHandler.cpp ..\Threadable.cpp ..\TimeoutServer.cpp ..\AbstractServer.cpp ..\ConnectionManager.cpp ..\Configure.cpp ..\LibeventLog.cpp ..\InputHandler.cpp
+         libevent_test.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         HttpContainer.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         HttpRequest.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         HttpServer.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         HttpServerMsgHandler.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         MessageHandler.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         TcpClientThread.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         TcpServer.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         TcpServerMsgHandler.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         Threadable.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         TimeoutServer.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         AbstractServer.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         ConnectionManager.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         Configure.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         LibeventLog.cpp
+     1>d:\my documents\visual studio 2010\projects\libevent\libeventinterface\httpCommon.h(10): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         InputHandler.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\libevent_test.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.20

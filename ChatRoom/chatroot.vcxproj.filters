@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="objs">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="read_test">
+      <UniqueIdentifier>{5e8fae6c-b460-4599-9ae2-f583ab3a2df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{841dcd9f-a1bf-4f08-8b81-190d6afdb531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{c7d66574-042b-4d20-9878-74a6dcd76852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="write_test">
+      <UniqueIdentifier>{12626ba4-3ff2-45bc-982c-a7120a39aeae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="read_test\build.sh">
+      <Filter>read_test</Filter>
+    </None>
+    <None Include="test\build.sh" />
+    <None Include="test\test.sh" />
+    <None Include="client\build.sh">
+      <Filter>client</Filter>
+    </None>
+    <None Include="write_test\build.sh">
+      <Filter>write_test</Filter>
+    </None>
+    <None Include="Makefile" />
+    <None Include="ReadMe" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="objs\test.cpp">
+      <Filter>objs</Filter>
+    </ClCompile>
+    <ClCompile Include="read_test\client.cpp">
+      <Filter>read_test</Filter>
+    </ClCompile>
+    <ClCompile Include="server\chat_manager.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\log.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\main.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\socket_manager.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="client\client.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="test\client.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="write_test\client.cpp">
+      <Filter>write_test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="read_test\client.h">
+      <Filter>read_test</Filter>
+    </ClInclude>
+    <ClInclude Include="server\chat_manager.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\global.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\log.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\socket_manager.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\util.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="write_test\client.h">
+      <Filter>write_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

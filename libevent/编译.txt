@@ -1,0 +1,13 @@
+windows:
+
+第一种方式：nmake /f Makefile.nmake
+
+第二种方式： $ md build && cd build
+ 	     $ cmake -G "Visual Studio 10" ..   # Or whatever generator you want to use cmake --help for a list.
+             $ start libevent.sln
+
+linux:
+ $ ./configure
+ $ make
+ $ make verify   # (optional)
+ $ sudo make install

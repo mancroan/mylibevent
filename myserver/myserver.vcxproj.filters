@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gateserver">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="gateserver\src">
+      <UniqueIdentifier>{93466ff0-4ec7-4ac9-905d-6846b48b39b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gateserver\inc">
+      <UniqueIdentifier>{a6111d97-66c9-472c-8d60-5a3dad1c62c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbserver">
+      <UniqueIdentifier>{a1c3628b-0f51-4a43-a48d-ff2d693d5641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbserver\inc">
+      <UniqueIdentifier>{242023e1-a750-479a-b2ee-40f525ae9924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbserver\src">
+      <UniqueIdentifier>{38e61d32-1b6f-4e76-a956-a62b18c43bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver">
+      <UniqueIdentifier>{7bf22f39-751d-481f-ac82-27e2dd82dae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule">
+      <UniqueIdentifier>{4760ee9d-2201-4da7-b057-a92b9f1b26c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\datamodule">
+      <UniqueIdentifier>{9d9d52d1-429a-4294-9964-1b7b285a4a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\logicmodule">
+      <UniqueIdentifier>{1b566462-4145-443b-aee8-d39d64c5bcb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\metamodule">
+      <UniqueIdentifier>{a971a5db-3791-43ae-9ed1-656294a75671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\datamodule\inc">
+      <UniqueIdentifier>{f35476d8-d36f-4d18-aacc-aad8d952c93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\datamodule\src">
+      <UniqueIdentifier>{45647ae8-7610-48e0-9ebd-b8129222053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\logicmodule\inc">
+      <UniqueIdentifier>{836481da-4914-45c1-9b8b-f58b15305910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\logicmodule\src">
+      <UniqueIdentifier>{ce36571f-edf7-45de-bbce-043f8690be6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\metamodule\inc">
+      <UniqueIdentifier>{d442cd53-1549-452c-a8d0-ed53c1282f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameserver\gamemodule\metamodule\src">
+      <UniqueIdentifier>{98723341-7853-4142-96bb-059746267551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{21abf1f1-9d51-4cc3-aad4-78a2fad368a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\testso">
+      <UniqueIdentifier>{82d083e0-72e1-4aa3-a1bd-53cd9b360d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxyserver">
+      <UniqueIdentifier>{3ccec211-a564-4050-b017-375018ad4bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxyserver\inc">
+      <UniqueIdentifier>{201566a4-e624-4071-b8ab-122f2f245284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxyserver\src">
+      <UniqueIdentifier>{8ed43848-a697-420a-bd75-86153b79984a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{87f04a30-3378-4857-b20a-c9d75f0518f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{bdc7bc4f-ce14-48cd-96bd-33437aea1f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{9d6924ca-d342-49e4-8c1a-c6a593b407d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{166e3dd5-d707-4a3f-a357-23bb4539eacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\base">
+      <UniqueIdentifier>{336a6584-8198-4424-a8c0-14c4183c7846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\const">
+      <UniqueIdentifier>{6bcf58a6-dbb6-4c99-8354-b30fb0ec8f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\json">
+      <UniqueIdentifier>{329cadc1-fefe-4f80-a9d1-3219b89da620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\log">
+      <UniqueIdentifier>{3426d957-f690-4d12-ae43-c85db5133a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\mem">
+      <UniqueIdentifier>{7cc5bdfe-0bff-4aed-80bd-d0aad8d46e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\message">
+      <UniqueIdentifier>{7132e5c5-b4ad-47a4-bc6e-6079dcff9846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\message\proto">
+      <UniqueIdentifier>{0a4f3be7-75e7-46ab-9c8f-6ca134d732a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\net">
+      <UniqueIdentifier>{2e0bcf2a-c4c4-4663-9408-b2fdd385794f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\thread">
+      <UniqueIdentifier>{d0377478-fa6e-4146-b4de-b490330336b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\timer">
+      <UniqueIdentifier>{2f2cf6bb-c830-4810-9634-248a259d41d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{565a3d3b-1f9c-458a-8b2c-8df17bbe79d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gateserver\CMakeLists.txt">
+      <Filter>gateserver</Filter>
+    </None>
+    <None Include="test\testso\CMakeLists.txt">
+      <Filter>test\testso</Filter>
+    </None>
+    <None Include="test\CMakeLists.txt">
+      <Filter>test</Filter>
+    </None>
+    <None Include="proxyserver\CMakeLists.txt">
+      <Filter>proxyserver</Filter>
+    </None>
+    <None Include="data\achievement_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\activity_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_building_amount_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_building_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_donate_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_flag_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_gift_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_reward_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\alliance_tech_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\area_level_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\area_level_monster_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\army_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\army_type_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\building_amount_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\building_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\chat_extend_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\chest_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\child_activity_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\composite_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\daily_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\dragon_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\drop_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\equipment_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\gift_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\grid_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\grid_limit_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\item_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\land_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\map_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\map_field_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\map_obstacle_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\market_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\mission_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\monster_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\month_card_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\more_2_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\more_3_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\more_4_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\online_reward_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\only_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\parameter_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\player_exp_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\player_skill_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\player_talent_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\property_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\push_message_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\random_name_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\recharge_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\robot_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\roundle_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\seven_day_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\shop_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\shop_guild_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\shop_quick_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\sixday_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\skill_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\smithy_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\soldier_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\system_mail_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\task_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\vip_config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="config\serverinfo.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="doc\ddl.sql">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doc\gameserver框架.png">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doc\install.txt">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="framework\message\cmake.bat">
+      <Filter>framework\message</Filter>
+    </None>
+    <None Include="framework\message\make.bat">
+      <Filter>framework\message</Filter>
+    </None>
+    <None Include="framework\message\make.sh">
+      <Filter>framework\message</Filter>
+    </None>
+    <None Include="framework\message\make_one.sh">
+      <Filter>framework\message</Filter>
+    </None>
+    <None Include="framework\message\protoc">
+      <Filter>framework\message</Filter>
+    </None>
+    <None Include="framework\message\proto\common.proto">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="framework\message\proto\dbmessage.proto">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="framework\message\proto\message.proto">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="framework\message\proto\player.proto">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="framework\message\proto\READ_ME.txt">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="framework\message\proto\README">
+      <Filter>framework\message\proto</Filter>
+    </None>
+    <None Include="bin\build.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\cspipefile">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\dbpipefile">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\kstop.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\monitoring.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\nohup.out">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\reload.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\scpipefile">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\shutdown.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\start.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\stop.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\tmpfile">
+      <Filter>bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gateserver\main.cpp">
+      <Filter>gateserver</Filter>
+    </ClCompile>
+    <ClCompile Include="gateserver\src\gate_ctrl.cpp">
+      <Filter>gateserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gateserver\src\mes_handle.cpp">
+      <Filter>gateserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gateserver\src\net_manager.cpp">
+      <Filter>gateserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\main.cpp">
+      <Filter>dbserver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\database.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\database_mysql.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\dbctrl.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\field.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\message_factory.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dbserver\src\query_result_mysql.cpp">
+      <Filter>dbserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\main.cpp">
+      <Filter>gameserver</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\player.cpp">
+      <Filter>gameserver\gamemodule\datamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playerbase.cpp">
+      <Filter>gameserver\gamemodule\datamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playercity.cpp">
+      <Filter>gameserver\gamemodule\datamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\playerdata.cpp">
+      <Filter>gameserver\gamemodule\datamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\datamodule\src\sceneobjmanager.cpp">
+      <Filter>gameserver\gamemodule\datamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\core_module.cpp">
+      <Filter>gameserver\gamemodule\logicmodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\db_module.cpp">
+      <Filter>gameserver\gamemodule\logicmodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\logic_module.cpp">
+      <Filter>gameserver\gamemodule\logicmodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\logicmodule\src\module_manager.cpp">
+      <Filter>gameserver\gamemodule\logicmodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver\gamemodule\metamodule\src\parameter_config.cpp">
+      <Filter>gameserver\gamemodule\metamodule\src</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testso\singleton.cpp">
+      <Filter>test\testso</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testso\test.cpp">
+      <Filter>test\testso</Filter>
+    </ClCompile>
+    <ClCompile Include="test\main.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyserver\main.cpp">
+      <Filter>proxyserver</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyserver\src\proxy_ctrl.cpp">
+      <Filter>proxyserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\base\base.cpp">
+      <Filter>framework\base</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\base\object_manager.cpp">
+      <Filter>framework\base</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\base\performance.cpp">
+      <Filter>framework\base</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\base\server_tool.cpp">
+      <Filter>framework\base</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\json\config.cpp">
+      <Filter>framework\json</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\json\json_interface.cpp">
+      <Filter>framework\json</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\log\log.cpp">
+      <Filter>framework\log</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\mem\code_queue.cpp">
+      <Filter>framework\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\mem\share_mem.cpp">
+      <Filter>framework\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\mem\shm.cpp">
+      <Filter>framework\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\message\common.pb.cc">
+      <Filter>framework\message</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\message\dbmessage.pb.cc">
+      <Filter>framework\message</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\message\message.pb.cc">
+      <Filter>framework\message</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\message\player.pb.cc">
+      <Filter>framework\message</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\acceptor.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\buffev_interface.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\byte_buff.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\ccrypto.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\client_comm_engine.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\connector.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\event_reactor.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\file_listener.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\listener.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\message_interface.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\net_work.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\runflag.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\server_comm_engine.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\socket.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\statistics.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\system_signal.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\net\timer_event.cpp">
+      <Filter>framework\net</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\thread\mythread.cpp">
+      <Filter>framework\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\thread\thread_pool.cpp">
+      <Filter>framework\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\timer\clock.cpp">
+      <Filter>framework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\timer\timer.cpp">
+      <Filter>framework\timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gateserver\inc\gate_ctrl.h">
+      <Filter>gateserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gateserver\inc\gate_def.h">
+      <Filter>gateserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gateserver\inc\mes_handle.h">
+      <Filter>gateserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gateserver\inc\net_manager.h">
+      <Filter>gateserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\query_result_mysql.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\basedb.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\database.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\dbctrl.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\database_mysql.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\field.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\message_factory.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="dbserver\inc\query_result.h">
+      <Filter>dbserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\player.h">
+      <Filter>gameserver\gamemodule\datamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playerbase.h">
+      <Filter>gameserver\gamemodule\datamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playercity.h">
+      <Filter>gameserver\gamemodule\datamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\playerdata.h">
+      <Filter>gameserver\gamemodule\datamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\datamodule\inc\sceneobjmanager.h">
+      <Filter>gameserver\gamemodule\datamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\core_module.h">
+      <Filter>gameserver\gamemodule\logicmodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\db_module.h">
+      <Filter>gameserver\gamemodule\logicmodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\logic_module.h">
+      <Filter>gameserver\gamemodule\logicmodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\logicmodule\inc\module_manager.h">
+      <Filter>gameserver\gamemodule\logicmodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver\gamemodule\metamodule\inc\parameter_config.h">
+      <Filter>gameserver\gamemodule\metamodule\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testso\singleton.h">
+      <Filter>test\testso</Filter>
+    </ClInclude>
+    <ClInclude Include="test\redi_lock.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyserver\inc\proxy_ctrl.h">
+      <Filter>proxyserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\base.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\my_assert.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\my_macro.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\object.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\object_manager.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\performance.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\base\server_tool.h">
+      <Filter>framework\base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\const\common_def.h">
+      <Filter>framework\const</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\const\dblogin_type.h">
+      <Filter>framework\const</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\const\err_code.h">
+      <Filter>framework\const</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\json\config.h">
+      <Filter>framework\json</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\json\json_interface.h">
+      <Filter>framework\json</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\log\log.h">
+      <Filter>framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\array_list.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\code_queue.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\map.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\mem_pool.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\mempool_safty.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\share_container_interface.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\share_mem.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\shm.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\unordered_map.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\mem\vector.h">
+      <Filter>framework\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\message\common.pb.h">
+      <Filter>framework\message</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\message\dbmessage.pb.h">
+      <Filter>framework\message</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\message\message.pb.h">
+      <Filter>framework\message</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\message\player.pb.h">
+      <Filter>framework\message</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\acceptor.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\buffev_interface.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\byte_buff.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\ccrypto.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\client_comm_engine.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\connector.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\event_reactor.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\file_listener.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\listener.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\message_interface.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\net_addr.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\net_inc.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\net_work.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\network_interface.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\runflag.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\server_comm_engine.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\socket.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\statistics.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\system_signal.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\net\timer_event.h">
+      <Filter>framework\net</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\thread\mythread.h">
+      <Filter>framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\thread\thread_pool.h">
+      <Filter>framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\timer\clock.h">
+      <Filter>framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\timer\timer.h">
+      <Filter>framework\timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

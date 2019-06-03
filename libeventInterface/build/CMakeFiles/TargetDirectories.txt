@@ -1,0 +1,4 @@
+D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/eventInterface.dir
+D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/libevent_test.dir
+D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/ALL_BUILD.dir
+D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/ZERO_CHECK.dir

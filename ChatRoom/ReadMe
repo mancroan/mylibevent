@@ -1,0 +1,6 @@
+1. install libevent
+2. make(to generate server)
+3. ./build.sh(to generate client)
+----------------------------------------------------
+client
+1.input format -> all:message(chat to all)

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2019/5/24 13:26:39。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP_client\libevent_IOCP_client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\libevent_IOCP_client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP\libevent" /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt bufferevent_cli.cpp
+         bufferevent_cli.cpp
+     1>bufferevent_cli.cpp(113): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.exe" /NOLOGO /LIBPATH:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP" libevent.lib libevent_extras.lib libevent_core.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\libevent_IOCP_client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.lib" /MACHINE:X64 x64\Debug\bufferevent_cli.obj
+         LINK : 没有找到 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         libevent_IOCP_client.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\x64\Debug\libevent_IOCP_client.exe;#1" /manifest x64\Debug\libevent_IOCP_client.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\libevent_IOCP_client.unsuccessfulbuild”。
+         正在对“x64\Debug\libevent_IOCP_client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\libevent\libevent_IOCP_client\libevent_IOCP_client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.58

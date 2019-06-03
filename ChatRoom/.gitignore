@@ -1,0 +1,8 @@
+*.swo
+*.swp
+script
+*.o
+*.out
+*.txt
+tags
+Log

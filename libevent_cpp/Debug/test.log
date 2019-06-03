@@ -1,0 +1,22 @@
+﻿生成启动时间为 2019/4/3 10:50:37。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\test\test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\test.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\gateway\include" /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TcpEventServer.cc test.cc
+         test.cc
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\test.cc(68): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\test.cc(74): error C3861: “getpid”: 找不到标识符
+         TcpEventServer.cc
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\tcpeventserver.cc(108): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : 参见“strerror”的声明
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\tcpeventserver.cc(123): error C3861: “pipe”: 找不到标识符
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\tcpeventserver.cc(188): error C3861: “write”: 找不到标识符
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\tcpeventserver.cc(205): error C3861: “write”: 找不到标识符
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\test\tcpeventserver.cc(215): error C3861: “read”: 找不到标识符
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\test\test.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.45

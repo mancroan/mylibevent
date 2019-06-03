@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84B222CC-88D7-3726-8479-631929368919}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>eventInterface</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">eventInterface.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">eventInterface</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">eventInterface.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">eventInterface</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">eventInterface.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">eventInterface</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">eventInterface.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">eventInterface</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface" "-BD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build" --check-stamp-file "D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCXXCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeRCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeSystem.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.c;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.cxx;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface" "-BD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build" --check-stamp-file "D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCXXCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeRCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeSystem.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.c;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.cxx;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface" "-BD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build" --check-stamp-file "D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCXXCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeRCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeSystem.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.c;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.cxx;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface" "-BD:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build" --check-stamp-file "D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/My Documents/Visual Studio 2010/Projects/libevent/libeventInterface/CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeCXXCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeRCCompiler.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\3.13.0\CMakeSystem.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.c;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\feature_tests.cxx;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\HttpContainer.cpp" />
+    <ClCompile Include="..\HttpRequest.cpp" />
+    <ClCompile Include="..\HttpServer.cpp" />
+    <ClCompile Include="..\HttpServerMsgHandler.cpp" />
+    <ClCompile Include="..\MessageHandler.cpp" />
+    <ClCompile Include="..\TcpClientThread.cpp" />
+    <ClCompile Include="..\TcpServer.cpp" />
+    <ClCompile Include="..\TcpServerMsgHandler.cpp" />
+    <ClCompile Include="..\Threadable.cpp" />
+    <ClCompile Include="..\TimeoutServer.cpp" />
+    <ClCompile Include="..\AbstractServer.cpp" />
+    <ClCompile Include="..\ConnectionManager.cpp" />
+    <ClCompile Include="..\Configure.cpp" />
+    <ClCompile Include="..\LibeventLog.cpp" />
+    <ClCompile Include="..\InputHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\My Documents\Visual Studio 2010\Projects\libevent\libeventInterface\build\ZERO_CHECK.vcxproj">
+      <Project>{90E1996C-F1DE-3131-9DE3-B439A2232C0E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/11/27 16:19:30。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\libevent\test\test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\test.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio 2010\Projects\libevent\Debug\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\My Documents\Visual Studio 2010\Projects\libevent\lib" libevent.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\My Documents\Visual Studio 2010\Projects\libevent\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio 2010\Projects\libevent\Debug\test.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 _event_dispatch，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _event_add，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _event_set，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _event_init，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _evutil_weakrand_seed_，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 __imp__WSAStartup@8，该符号在函数 _testtime 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _evutil_weakrand_，该符号在函数 _rand_int 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 _event_del，该符号在函数 _time_cb 中被引用
+     1>D:\My Documents\Visual Studio 2010\Projects\libevent\Debug\test.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\libevent\test\test.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.90
